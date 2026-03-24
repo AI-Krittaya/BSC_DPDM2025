@@ -111,17 +111,15 @@ Final Score = Score × %attendance
 ### สรุปผล
 จากการทดสอบพบว่าแต่ละแบบจำลองมีประสิทธิภาพที่แตกต่างกัน โดยได้ทำการคัดเลือกโมเดลที่เหมาะสมที่สุดผ่านเกณฑ์การวัดผลทางสถิติ ได้แก่ **MSE (Mean Squared Error)**, **R² (Coefficient of Determination)** และ **Accuracy** เพื่อนำไปประยุกต์ใช้ในการพยากรณ์ปริมาณน้ำฝนที่จะเกิดขึ้นจริงในอนาคตต่อไป
 
+## 📖Quiz
+- [Quiz 9](https://github.com/AI-Krittaya/BSC_DPDM2025/blob/main/Quiz9.pdf)
+- [Quiz11](https://github.com/AI-Krittaya/BSC_DPDM2025/commit/296bb306c5fd7b40737f646fafa29639cc18df36)
+- [Quiz 12](https://github.com/AI-Krittaya/BSC_DPDM2025/blob/main/IMG_0577.jpeg)
+  
+## 📚HOMEWORK
+**1. HWงานกลุ่ม Indian Movies** วิเคราะห์การนักแสดงร่วมกับประเภทของหนัง รวมไปถึง rating ที่ได้รับ
+- **Group 4:** Mahalanobis
+- **Code:** ([Code Indian Movie](https://github.com/AI-Krittaya/BSC_DPDM2025/blob/main/Group4_final_project.ipynb))
+- **Presentation:** ([Indian Movies Group4-BSC DPDM2025](https://www.canva.com/design/DAG__2d4nYI/WvH1MYeHkyBfTbfgN1r1ig/view?utm_content=DAG__2d4nYI&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h4a377d1985)) 
 
-# 📚 ภาพรวมบทเรียนและงาน
-
-| บทเรียน | แหล่งเรียนรู้ | งานและแบบทดสอบ |
-| :--- | :--- | :--- |
-| **Chapter 1:** Introduction to Data Mining | ([📄 เอกสารประกอบการสอน](https://github.com/AI-Krittaya/BSC_DPDM2025/blob/main/Slide/01Intro.pdf)) |  - |
-| **Chapter 2:** Getting to Know Your Data | ([📄 เอกสารประกอบการสอน](https://github.com/AI-Krittaya/BSC_DPDM2025/blob/main/Slide/02Data.pdf)) | - |
-| **Chapter 3:** Data Preprocessing |([📄 เอกสารประกอบการสอน](https://github.com/AI-Krittaya/BSC_DPDM2025/blob/main/Slide/03Preprocessing.pdf))<br>([💻Code](https://github.com/AI-Krittaya/BSC_DPDM2025/blob/main/Ch3_Data_Prepocessing.ipynb))<br>[💻Code ตัวอย่าง PCA](https://github.com/AI-Krittaya/BSC_DPDM2025/blob/main/Ch3_dimensionality_reduction_PCA.ipynb))| - |
-| **Chapter 6:** Mining Frequent Patterns & Associations |([📄 เอกสารประกอบการสอน](https://github.com/AI-Krittaya/BSC_DPDM2025/blob/main/Slide/06FPBasic.pdf))<br>([💻Code](https://github.com/AI-Krittaya/BSC_DPDM2025/blob/main/Ch4_Frequent_Patterns_(Association_Rules).ipynb))|  📝 **Quiz7** - คำนวณ Apriori Algorithm<br>📝 **HW3** - วิเคราะห์พฤติกรรมลูกค้า |
-| **Chapter 8:** Classification - Basic Concepts |([📄 เอกสารประกอบการสอน](https://github.com/AI-Krittaya/BSC_DPDM2025/blob/main/Slide/08ClassBasic.pdf))<br>([💻Code](https://github.com/AI-Krittaya/BSC_DPDM2025/blob/main/Ch5_Classification.ipynb))|  📝 **Quiz10** - Naïve Bayes<br>📝 **Quiz13** - F1 Score<br>📝 **HW4** - Decision Tree |
-| **Chapter 9:** Classification - Advanced Methods | ([📄 เอกสารประกอบการสอน](https://github.com/AI-Krittaya/BSC_DPDM2025/blob/main/Slide/09ClassAdvanced.pdf) | - |
-| **Chapter 10:** Cluster Analysis |([📄 เอกสารประกอบการสอน](https://github.com/AI-Krittaya/BSC_DPDM2025/blob/main/Slide/10ClusBasic.pdf))<br>([📖 ANN Tutorial (หน้า 169)](https://github.com/AI-Krittaya/BSC_DPDM2025/blob/main/Slide/AI%20%E0%B8%9A%E0%B8%B8%E0%B8%8D%E0%B9%80%E0%B8%AA%E0%B8%A3%E0%B8%B4%E0%B8%A1.pdf))| - |
-
----
+**2. HW4** [Desicion Tree](https://github.com/AI-Krittaya/BSC_DPDM2025/blob/main/HW4_Desicion%20Tree.pdf)
