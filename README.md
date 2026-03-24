@@ -73,12 +73,5 @@ Final Score = Score × %attendance
 เนื้อหา:
 - แนวคิดพื้นฐานการจัดกลุ่มข้อมูล (Unsupervised Learning)
 - แนะนำเทคนิค Partitioning (k-means), Hierarchical Methods และ Density-based Methods (DBSCAN)
-
-### **Text Book** AI บุญเสริม ([Dowload](https://github.com/AI-Krittaya/BSC_DPDM2025/blob/main/Slide/AI%20%E0%B8%9A%E0%B8%B8%E0%B8%8D%E0%B9%80%E0%B8%AA%E0%B8%A3%E0%B8%B4%E0%B8%A1.pdf))
-เนื้อหา:
-- เอกสารคำสอนวิชา AI โดย รศ.ดร.บุญเสริม กิจศิริกุล
-- State Space Search
-- ตรรกศาสตร์ (Logic)
-- ภาษา Prolog
-- การประมวลผลภาษาธรรมชาติ (NLP)
-- พื้นฐาน Machine Learning
+- ANN Tutorial: 📄 ([เอกสาร ANN](https://github.com/AI-Krittaya/BSC_DPDM2025/blob/main/Slide/AI%20%E0%B8%9A%E0%B8%B8%E0%B8%8D%E0%B9%80%E0%B8%AA%E0%B8%A3%E0%B8%B4%E0%B8%A1.pdf))
+** หมายเหตุ: ศึกษาเรื่อง Perceptron Learning ที่หน้า 169 ในเอกสาร
