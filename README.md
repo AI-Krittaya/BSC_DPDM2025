@@ -75,3 +75,40 @@ Final Score = Score × %attendance
 - แนะนำเทคนิค Partitioning (k-means), Hierarchical Methods และ Density-based Methods (DBSCAN)
 - ANN Tutorial: 📄 ([เอกสาร ANN](https://github.com/AI-Krittaya/BSC_DPDM2025/blob/main/Slide/AI%20%E0%B8%9A%E0%B8%B8%E0%B8%8D%E0%B9%80%E0%B8%AA%E0%B8%A3%E0%B8%B4%E0%B8%A1.pdf))
 ** หมายเหตุ: ศึกษาเรื่อง Perceptron Learning ที่หน้า 169 ในเอกสาร
+
+## 📝Midterm: Rainfall Data Preprocessing
+การทำ Data Cleaning และ Data Aggregation ข้อมูลปริมาณน้ำฝนรายวันจากสถาบันสารสนเทศทรัพยากรน้ำ (HII) เพื่อเตรียมข้อมูลสำหรับแบบจำลองพยากรณ์หรือวิเคราะห์ทางอุทกวิทยา
+### สรุปขั้นตอน ([Code](https://github.com/AI-Krittaya/BSC_DPDM2025/blob/main/Midterm_663020277_7.ipynb))
+- Data Integration: รวมข้อมูลน้ำฝนรายวันปี 2025 จากหลายไฟล์ CSV เข้าด้วยกัน
+- Station Filtering: คัดเฉพาะสถานีที่อยู่ในโมเดล (384 สถานี)
+- Quality Control: ตัดสถานีที่มีข้อมูลหาย >= 20% ออก (เหลือ 339 สถานี)
+- Missing Imputation: เติมค่าว่างด้วย Median จากสถิติย้อนหลัง (2012-2024) รายวัน
+- Monthly Aggregation: รวมผลรวมน้ำฝน (Sum) รายเดือน แยกตามสถานี
+
+## 🌧️Final Project: Rainfall Prediction Model Comparison
+### Group 4: Mahalanobis
+### Code: ([Code Final Project](https://github.com/AI-Krittaya/BSC_DPDM2025/blob/main/Group4_final_project.ipynb))
+### Presentation : ([Slide Final Project](https://www.canva.com/design/DAHD7QeY6AQ/NoYAkGl7-4UdB4CTaOizSQ/view?utm_content=DAHD7QeY6AQ&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h80002e3179)) 
+
+### โจทย์
+เปรียบเทียบโมเดลพยากรณ์ปริมาณน้ำฝน เพื่อหาโมเดลที่มีประสิทธิภาพดีที่สุด
+
+### โมเดลที่ใช้
+1. LSTM
+2. Hist Gradient Boosting Regressor
+3. Gaussian Process Regression
+4. VotingRegressor
+   
+### การทำงาน
+- ประยุกต์ใช้เทคนิคการเรียนรู้จากข้อมูลย้อนหลัง (Sliding Window) เพื่อสร้างแบบจำลองสำหรับการพยากรณ์ข้อมูลในอนาคต (Forecasting Horizon)
+- บูรณาการชุดข้อมูลปริมาณน้ำฝนจากหลากหลายสถานีตรวจวัด ควบคู่ไปกับตัวแปรปัจจัยทางสภาพภูมิอากาศ เพื่อเพิ่มความแม่นยำในการวิเคราะห์
+- บริหารจัดการชุดข้อมูลด้วยการแบ่งส่วนแบบอนุกรมเวลา (Time Series Split) ซึ่งประกอบด้วยส่วนการฝึกสอน (Train), การปรับจูน (Validation) และการทดสอบประสิทธิภาพ (Test)
+
+### การวิเคราะห์และแสดงผล
+* **Model Performance Comparison:** ดำเนินการเปรียบเทียบขีดความสามารถและประสิทธิภาพของแต่ละโมเดลอย่างละเอียด
+* **Data Visualization & Export:** จัดเก็บผลลัพธ์การวิเคราะห์ในรูปแบบไฟล์ CSV พร้อมจัดทำกราฟเปรียบเทียบระหว่างค่าจริง (Actual) และค่าที่แบบจำลองทำนาย (Predicted) เพื่อให้เห็นความแตกต่างที่ชัดเจน
+
+
+
+### สรุปผล
+จากการทดสอบพบว่าแต่ละแบบจำลองมีประสิทธิภาพที่แตกต่างกัน โดยได้ทำการคัดเลือกโมเดลที่เหมาะสมที่สุดผ่านเกณฑ์การวัดผลทางสถิติ ได้แก่ **MSE (Mean Squared Error)**, **R² (Coefficient of Determination)** และ **Accuracy** เพื่อนำไปประยุกต์ใช้ในการพยากรณ์ปริมาณน้ำฝนที่จะเกิดขึ้นจริงในอนาคตต่อไป
