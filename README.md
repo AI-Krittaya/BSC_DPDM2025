@@ -26,6 +26,59 @@ Krittaya Nikornkul 663020277-7
 Final Score = Score × %attendance
 
 ## 📚Contents
-### **Chapter 1** Introduction to Data Mining ([Dowload](https://github.com/AI-Krittaya/BSC_DPDM2025/blob/main/Introduction%20to%20Data%20Mining.pdf))
 
-### **Chapter 2** Getting to Know Your Data ([Dowload](https://github.com/AI-Krittaya/BSC_DPDM2025/blob/main/Introduction%20to%20Data%20Mining.pdf))
+### **Chapter 1** Introduction to Data Mining ([Dowload](https://github.com/AI-Krittaya/BSC_DPDM2025/blob/main/Slide/01Intro.pdf))
+
+เนื้อหา: 
+- บทนำสู่ Data Mining
+- อธิบายความหมาย ความสำคัญ ประเภทของข้อมูลที่นำมาทำ data mining
+- ภาพรวมของกระบวนการค้นหาความรู้จากฐานข้อมูล (KDD)
+
+### **Chapter 2** Getting to Know Your Data ([Dowload](https://github.com/AI-Krittaya/BSC_DPDM2025/blob/main/Slide/02Data.pdf))
+เนื้อหา: 
+- การทำความรู้จักกับข้อมูล
+- ประเภทของ Attribute
+- การสรุปข้อมูลเชิงสถิติ (Mean, Median, Mode, Variance)
+- การวัดความเหมือน/ต่าง (Similarity & Dissimilarity)
+
+### **Chapter 3** Data Preprocessing ([Dowload](https://github.com/AI-Krittaya/BSC_DPDM2025/blob/main/Slide/03Preprocessing.pdf))
+เนื้อหา: 
+- ขั้นตอนการเตรียมข้อมูลก่อนนำไปใช้จริง ประกอบด้วย
+- Data Cleaning (ล้างข้อมูล)
+- Data Integration (รวมข้อมูล)
+- Data Reduction (ลดขนาด)
+- Data Transformation (การแปลงข้อมูล)
+
+### **Chapter 6** Frequent Patterns & Association Rules ([Dowload](https://github.com/AI-Krittaya/BSC_DPDM2025/blob/main/Slide/06FPBasic.pdf))
+เนื้อหา:
+- การค้นหา Frequent Patterns และ Association Rules
+- อัลกอริทึม Apriori
+- การวิเคราะห์ตะกร้าสินค้า (Market Basket Analysis)
+
+### **Chapter 8** Classification Basic Concepts ([Dowload](https://github.com/AI-Krittaya/BSC_DPDM2025/blob/main/Slide/08ClassBasic.pdf))
+เนื้อหา:
+- พื้นฐานการสร้างโมเดลจำแนกประเภท
+- แนะนำ Decision Tree, Naïve Bayes, โมเดลแบบ Linear
+- การประเมินประสิทธิภาพของโมเดล (Evaluation)
+
+### **Chapter 9** Classification Advanced Methods ([Dowload](https://github.com/AI-Krittaya/BSC_DPDM2025/blob/main/Slide/09ClassAdvanced.pdf))
+เนื้อหา:
+- เทคนิคการจำแนกประเภทขั้นสูง
+- Bayesian Belief Networks
+- Support Vector Machines (SVM), Neural Networks
+- Deep Learning
+- K-Nearest Neighbors (KNN)
+
+### **Chapter 10** Cluster Analysis ([Dowload](https://github.com/AI-Krittaya/BSC_DPDM2025/blob/main/Slide/10ClusBasic.pdf))
+เนื้อหา:
+- แนวคิดพื้นฐานการจัดกลุ่มข้อมูล (Unsupervised Learning)
+- แนะนำเทคนิค Partitioning (k-means), Hierarchical Methods และ Density-based Methods (DBSCAN)
+
+### **Text Book** AI บุญเสริม ([Dowload](https://github.com/AI-Krittaya/BSC_DPDM2025/blob/main/Slide/AI%20%E0%B8%9A%E0%B8%B8%E0%B8%8D%E0%B9%80%E0%B8%AA%E0%B8%A3%E0%B8%B4%E0%B8%A1.pdf))
+เนื้อหา:
+- เอกสารคำสอนวิชา AI โดย รศ.ดร.บุญเสริม กิจศิริกุล
+- State Space Search
+- ตรรกศาสตร์ (Logic)
+- ภาษา Prolog
+- การประมวลผลภาษาธรรมชาติ (NLP)
+- พื้นฐาน Machine Learning
