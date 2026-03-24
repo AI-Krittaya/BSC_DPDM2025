@@ -49,19 +49,19 @@ Final Score = Score × %attendance
 - Data Reduction (ลดขนาด)
 - Data Transformation (การแปลงข้อมูล)
 
-### **Chapter 6** Frequent Patterns & Association Rules ([Dowload](https://github.com/AI-Krittaya/BSC_DPDM2025/blob/main/Slide/06FPBasic.pdf))
+### **Chapter 6** Mining Frequent Patterns & Associations ([Dowload](https://github.com/AI-Krittaya/BSC_DPDM2025/blob/main/Slide/06FPBasic.pdf))
 เนื้อหา:
 - การค้นหา Frequent Patterns และ Association Rules
 - อัลกอริทึม Apriori
 - การวิเคราะห์ตะกร้าสินค้า (Market Basket Analysis)
 
-### **Chapter 8** Classification Basic Concepts ([Dowload](https://github.com/AI-Krittaya/BSC_DPDM2025/blob/main/Slide/08ClassBasic.pdf))
+### **Chapter 8** Classification - Basic Concepts ([Dowload](https://github.com/AI-Krittaya/BSC_DPDM2025/blob/main/Slide/08ClassBasic.pdf))
 เนื้อหา:
 - พื้นฐานการสร้างโมเดลจำแนกประเภท
 - แนะนำ Decision Tree, Naïve Bayes, โมเดลแบบ Linear
 - การประเมินประสิทธิภาพของโมเดล (Evaluation)
 
-### **Chapter 9** Classification Advanced Methods ([Dowload](https://github.com/AI-Krittaya/BSC_DPDM2025/blob/main/Slide/09ClassAdvanced.pdf))
+### **Chapter 9** Classification - Advanced Methods ([Dowload](https://github.com/AI-Krittaya/BSC_DPDM2025/blob/main/Slide/09ClassAdvanced.pdf))
 เนื้อหา:
 - เทคนิคการจำแนกประเภทขั้นสูง
 - Bayesian Belief Networks
@@ -108,7 +108,20 @@ Final Score = Score × %attendance
 * **Model Performance Comparison:** ดำเนินการเปรียบเทียบขีดความสามารถและประสิทธิภาพของแต่ละโมเดลอย่างละเอียด
 * **Data Visualization & Export:** จัดเก็บผลลัพธ์การวิเคราะห์ในรูปแบบไฟล์ CSV พร้อมจัดทำกราฟเปรียบเทียบระหว่างค่าจริง (Actual) และค่าที่แบบจำลองทำนาย (Predicted) เพื่อให้เห็นความแตกต่างที่ชัดเจน
 
-
-
 ### สรุปผล
 จากการทดสอบพบว่าแต่ละแบบจำลองมีประสิทธิภาพที่แตกต่างกัน โดยได้ทำการคัดเลือกโมเดลที่เหมาะสมที่สุดผ่านเกณฑ์การวัดผลทางสถิติ ได้แก่ **MSE (Mean Squared Error)**, **R² (Coefficient of Determination)** และ **Accuracy** เพื่อนำไปประยุกต์ใช้ในการพยากรณ์ปริมาณน้ำฝนที่จะเกิดขึ้นจริงในอนาคตต่อไป
+
+
+# 📚 ภาพรวมบทเรียนและงาน
+
+| บทเรียน | แหล่งเรียนรู้ | งานและแบบทดสอบ |
+| :--- | :--- | :--- |
+| **Chapter 1:** Introduction to Data Mining | ([📄 เอกสารประกอบการสอน](https://github.com/AI-Krittaya/BSC_DPDM2025/blob/main/Slide/01Intro.pdf)) |  - |
+| **Chapter 2:** Getting to Know Your Data | ([📄 เอกสารประกอบการสอน](https://github.com/AI-Krittaya/BSC_DPDM2025/blob/main/Slide/02Data.pdf)) | - |
+| **Chapter 3:** Data Preprocessing |([📄 เอกสารประกอบการสอน](https://github.com/AI-Krittaya/BSC_DPDM2025/blob/main/Slide/03Preprocessing.pdf))<br>([💻Code](https://github.com/AI-Krittaya/BSC_DPDM2025/blob/main/Ch3_Data_Prepocessing.ipynb))<br>[💻Code ตัวอย่าง PCA](https://github.com/AI-Krittaya/BSC_DPDM2025/blob/main/Ch3_dimensionality_reduction_PCA.ipynb))| - |
+| **Chapter 6:** Mining Frequent Patterns & Associations |([📄 เอกสารประกอบการสอน](https://github.com/AI-Krittaya/BSC_DPDM2025/blob/main/Slide/06FPBasic.pdf))<br>([💻Code](https://github.com/AI-Krittaya/BSC_DPDM2025/blob/main/Ch4_Frequent_Patterns_(Association_Rules).ipynb))|  📝 **Quiz7** - คำนวณ Apriori Algorithm<br>📝 **HW3** - วิเคราะห์พฤติกรรมลูกค้า |
+| **Chapter 8:** Classification - Basic Concepts |([📄 เอกสารประกอบการสอน](https://github.com/AI-Krittaya/BSC_DPDM2025/blob/main/Slide/08ClassBasic.pdf))<br>([💻Code](https://github.com/AI-Krittaya/BSC_DPDM2025/blob/main/Ch5_Classification.ipynb))|  📝 **Quiz10** - Naïve Bayes<br>📝 **Quiz13** - F1 Score<br>📝 **HW4** - Decision Tree |
+| **Chapter 9:** Classification - Advanced Methods | ([📄 เอกสารประกอบการสอน](https://github.com/AI-Krittaya/BSC_DPDM2025/blob/main/Slide/09ClassAdvanced.pdf) | - |
+| **Chapter 10:** Cluster Analysis |([📄 เอกสารประกอบการสอน](https://github.com/AI-Krittaya/BSC_DPDM2025/blob/main/Slide/10ClusBasic.pdf))<br>([📖 ANN Tutorial (หน้า 169)](https://github.com/AI-Krittaya/BSC_DPDM2025/blob/main/Slide/AI%20%E0%B8%9A%E0%B8%B8%E0%B8%8D%E0%B9%80%E0%B8%AA%E0%B8%A3%E0%B8%B4%E0%B8%A1.pdf))| - |
+
+---
